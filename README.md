@@ -1,1 +1,8 @@
 # fernandez_2eceb_exp2
+
+NORMALIZATION PROBLEM 
+This problem asks for the mean and standard deviation which can be obtained by using .mean() and .std() respectively. It asks for a random 5x5 array which means random.rand will be used and it will stored in X. X will then be normalized and wll be saved as X_normalized.npy. To start, numpy must be imported and it can be dictated as np. Then the array will be formed and in this particular case, its a 5x5 array and it will be stored in X and to achieve that, np.random.rand(5, 5) will be utilized. The values in the 5x5 array will be between 0 and 1 because of the random.rand. As stated before, the mean and std will be used and it can be used by using X.mean() and X.std(). Next is normalizing and I used X_normalized = (X - mean) / std and this was from the given formula in the problem. Then the npy file of the normalized X is saved. Last, is printing the array, normalized array, mean, and standard deviation. 
+
+
+DIVISIBLE BY 3 PROBLEM
+This problem asks for a 10x10 array which are composed of the squares of the first 100 positive integers. Next is determining the elements that are divisible by 3. First again is importing the numpy as np. Then I declared the numbers as the first 100 positive integers using mp.arrange from 1 to 101. The squares is just the squares of the number as that is what is being asked of the problem so its numbers**2. I used A to make the 10x10 array be composed of the squares of the numbers. To get the elements that are divisible by 3, div_by_3 was used wherein the elements in A that were divisible by 3 were selected. It is then saved using np.save for the divisibe by 3 and lasty, I printed the Matrix A and the matrix wherein all the elements that were divisible by 3 were selected.
